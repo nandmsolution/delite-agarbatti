@@ -1,0 +1,4 @@
+.zoom:hover {
+  box-shadow: 5 10px 20px -1px rgba(0, 0, 0, 0.12),
+    0 4px 8px rgba(0, 0, 0, 0.06) !important;
+}

@@ -1,0 +1,34 @@
+
+//$inactive:#4B7F52;
+//$active:#7DD181;
+
+$active:#252E29;
+ $body-bg-color: $active;
+$theme-colors: (
+  "active":$active,
+//  "inactive": $inactive,
+  "mint": #6add92,
+);
+
+$nav-link-color:$active;
+$nav-link-hover-color:#fff;
+$nav-link-font-weight: 400;
+$navbar-brand-font-size: 3.5rem;
+
+$navbar-light-color:$active;
+$navbar-light-hover-color:#fff;
+//$navbar-light-active-color:$inactive;
+
+@font-face {
+  font-family: GreatVibes-Regular;
+  src: url(GreatVibes-Regular.ttf);
+}
+
+.logo-font {
+  font-family: GreatVibes-Regular;
+}
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
