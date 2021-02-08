@@ -11,7 +11,7 @@ export const NavBar = () => {
       <Navbar.Brand className="mx-lg-auto ml-md-auto">
         <Nav.Link className="logo-font" as={Link} to="/">
           {" "}
-          Delight{" "}
+          Delite{" "}
           <small style={{ fontSize: "0.95rem" }}>
             {" "}
             The fragnance you trust
